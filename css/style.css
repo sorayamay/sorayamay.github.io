@@ -131,7 +131,7 @@
 			opacity: 0.1;
 			position: absolute;
 			top: 1.75em;
-			width: 43%;
+			width: 30%;
 		}
 
 		header.special:before {
@@ -204,7 +204,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: #c983d3;
 		}
 
 	input[type="text"],
@@ -340,22 +340,22 @@
 					background: #df7b77;
 				}
 
-			.icon.circle.fa-github {
-				background: #dcad8b;
+			.icon.circle.fa-instagram {
+				background: #fb3958;
 				color: white;
 			}
 
-				.icon.circle.fa-github:hover {
-					background: #e1b89b;
-				}
-
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
-				color: white;
-			}
-
-				.icon.circle.fa-dribbble:hover {
+				.icon.circle.fa-instagram:hover {
 					background: #df93b8;
+				}
+				
+			.icon.circle.fa-spotify {
+				background: #84bd00;
+				color: black;
+			}
+
+				.icon.circle.fa-spotify:hover {
+					background: #A1E400;
 				}
 
 		.icon.featured {
@@ -531,8 +531,8 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #c983d3;
+			border-color: #c983d3;
 			color: white !important;
 		}
 
@@ -572,8 +572,8 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+			background-color: #c983d3;
+			/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");*/
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -587,7 +587,7 @@
 			.wrapper.style2 .button.special {
 				background: white;
 				border-color: white;
-				color: #83d3c9 !important;
+				color: #c983d3 !important;
 			}
 
 				.wrapper.style2 .button.special:hover {
@@ -784,9 +784,10 @@
 				padding: 0 1em;
 				border: 0;
 			}
+		
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #c983d3;
 				color: white;
 			}
 
@@ -802,12 +803,16 @@
 	@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/background_splash.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: 25em, 25em, auto, cover;*/
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image:url("../images/background_splash.jpg");
 		color: white;
 		cursor: default;
 		padding: 6em 0;
@@ -872,11 +877,11 @@
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/*background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
-		background-size: 25em;
-		padding: 7em 0;
+		background-size: 25em;*/
+		padding: 4em 0;
 	}
 
 		#main > :last-child {
@@ -904,10 +909,14 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		/*background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/background_splash.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: 25em, 25em, auto, cover;*/
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image:url("../images/background_splash.jpg");
 		color: white;
 		padding: 5em;
 		text-align: center;

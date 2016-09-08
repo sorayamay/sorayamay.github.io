@@ -11,12 +11,12 @@
 	}
 
 	header.special {
-		margin-bottom: 4em;
-		padding-top: 5em;
+		margin-bottom: 1em;
+		padding-top: 1em;
 	}
 
 		header.special:before, header.special:after {
-			width: 40%;
+			width: 30%;
 		}
 
 		header.special h2 + p {
@@ -91,7 +91,7 @@
 /* Main */
 
 	#main {
-		padding: 5em 0;
+		padding: 4em 0;
 	}
 
 		#main .sidebar {
